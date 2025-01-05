@@ -5,7 +5,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score,classification_report,confusion_matrix
 import pandas as pd
 
-#reading the data
 titanic_data = pd.read_csv("C:/Users/JAYA SREE/Downloads/Titanic-Dataset.csv")
 print(titanic_data.head())
 #checking for null values
